@@ -1,7 +1,6 @@
 {
   "name": "vue-shuttle",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,15 +8,17 @@
   },
   "private": false,
   "files": [
-    "dist"
+    "src"
   ],
   "publisher": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iMaldway/VueShuttle.git"
   },
   "keywords": [
+    "vue",
+    "shuttle",
     "穿梭框"
   ],
   "author": "iMaldway",
@@ -28,7 +29,9 @@
   "homepage": "https://github.com/iMaldway/VueShuttle#readme",
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -36,8 +39,6 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "node-sass": "^7.0.1",
-    "sass-loader": "^12.6.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "vue-template-compiler": "^2.6.14"
