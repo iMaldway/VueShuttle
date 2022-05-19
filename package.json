@@ -48,6 +48,7 @@
     "env": {
       "node": true
     },
+    "requireConfigFile": false,
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
